@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
@@ -11,8 +11,14 @@ body {
   background-color: #0e100f;
 }
 
-#box {
-  height: 300px;
-  width: 300px;
-  background-color: crimson;
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 10px 45px;
+  margin: 15px 0;
+}
+#nav-items a {
+  margin: 0 20px;
 }
