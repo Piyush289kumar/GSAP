@@ -16,9 +16,17 @@ body {
   justify-content: space-between;
   align-items: center;
   color: aliceblue;
-  padding: 10px 45px;
-  margin: 15px 0;
+  padding: 20px 45px;
 }
 #nav-items a {
   margin: 0 20px;
+}
+#centerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  color: aliceblue;
+  height: 70%;
+  font-size: 50px;
 }
