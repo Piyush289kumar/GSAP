@@ -5,27 +5,26 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
-#page1,
-#page2,
-#page3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: aliceblue;
+#page1 {
   height: 100vh;
   width: 100%;
   background-color: #212121;
 }
 #page2 {
+  height: 100vh;
+  width: 100%;
   background-color: lightskyblue;
 }
 #page3 {
+  height: 100vh;
+  width: 100%;
   background-color: #212121;
 }
 h1 {
   font-size: 25vw;
   text-wrap: nowrap;
   text-transform: uppercase;
+  padding-top: 120px;
 }
