@@ -1,12 +1,9 @@
-gsap.to("#page2 h1", {
-  transform: "translateX(-180%)",
-  scrollTrigger: {
-    trigger: "#page2",
-    scroller: "body",
-    scrub: 3,
-    markers: true,
-    start: "top 0%",
-    end: "top -150%",
-    pin: true,
-  },
+let main = document.querySelector("#main");
+let cursorPointer = document.querySelector("#cursor-pointer");
+
+main.addEventListener("mousemove", function (dept) {
+  gsap.to(cursorPointer, {
+    x: dept.x,
+    y: dept.y,
+  });
 });
