@@ -4,15 +4,33 @@
   box-sizing: border-box;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-body {
-  background: #212121;
-  overflow: hidden;
-}
 #main {
   width: 100vw;
   height: 100vh;
+  background: url(https://plus.unsplash.com/premium_photo-1681433361323-6f01c3eac790?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+#nav {
+  color: #313131;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  position: relative;
+  padding: 20px 50px;
+}
+#nav i {
+  font-size: 25px;
+}
+#side-nav {
+  width: 40%;
+  height: 100vh;
+  background: #ffffff39;
+  position: fixed;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  padding: 45px 80px;
+}
+#side-nav h2 {
+  margin-bottom: 15px;
 }
