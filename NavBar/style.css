@@ -34,3 +34,11 @@
 #side-nav h2 {
   margin-bottom: 15px;
 }
+#side-nav i {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  background: #fff;
+  padding: 15px 18px;
+  border-radius: 50%;
+}
