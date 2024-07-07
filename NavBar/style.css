@@ -25,10 +25,9 @@
   width: 40%;
   height: 100vh;
   background: #ffffff39;
-  right: -40%;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -40%;
   backdrop-filter: blur(10px);
   padding: 45px 80px;
 }
