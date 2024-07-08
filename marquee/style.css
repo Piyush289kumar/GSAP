@@ -12,14 +12,12 @@
   height: 100vh;
   background: #313131;
 }
-
 #move {
   background: red;
   padding: 5vh 0;
   display: flex;
   overflow-x: hidden;
 }
-
 #marquee {
   flex-shrink: 0;
   display: flex;
@@ -30,7 +28,6 @@
   padding: 0 0.9vw;
   transform: translateX(-100%);
 }
-
 #marquee h1 {
   font-size: 3vw;
   color: #313131;
