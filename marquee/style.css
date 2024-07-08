@@ -17,6 +17,7 @@
   background: red;
   padding: 5vh 0;
   display: flex;
+  overflow-x: hidden;
 }
 
 #marquee {
@@ -26,6 +27,8 @@
   align-items: center;
   background: lightgreen;
   gap: 2vw;
+  padding: 0 0.9vw;
+  transform: translateX(-100%);
 }
 
 #marquee h1 {
