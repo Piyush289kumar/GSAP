@@ -15,10 +15,22 @@ nav {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  padding: 40px 30px;
+  padding: 10px 30px;
   color: #313131;
 }
 
+#brandName {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 #brandName h2 {
   color: #313131;
+  font-weight: 800;
+}
+#brandName i {
+  color: #313131;
+  font-size: 30px;
+  font-weight: 800;
+  rotate: 50deg;
 }
