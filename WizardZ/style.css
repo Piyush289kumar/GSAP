@@ -54,12 +54,14 @@ nav {
   border-radius: 18px;
   background: transparent;
 }
-
+section {
+  padding: 25px 70px;
+}
 #center {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 80vh;
   width: 100%;
 }
 #center1 {
@@ -67,8 +69,18 @@ nav {
   height: 100%;
   width: 100%;
 }
+#center1 h1 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: china;
+}
 #center2 {
-  background: black;
   height: 100%;
   width: 100%;
+  position: relative;
+}
+#center2 img {
+  height: 85%;
+  position: absolute;
+  right: 0;
 }
