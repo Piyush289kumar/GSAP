@@ -54,3 +54,21 @@ nav {
   border-radius: 18px;
   background: transparent;
 }
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+}
+#center1 {
+  background: red;
+  height: 100%;
+  width: 100%;
+}
+#center2 {
+  background: black;
+  height: 100%;
+  width: 100%;
+}
