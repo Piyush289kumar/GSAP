@@ -14,7 +14,7 @@ nav {
   justify-content: space-between;
   gap: 40px;
   padding: 20px 30px;
-  color: #313131;
+  color: #1F1F1F;
 }
 #brandName {
   display: flex;
@@ -22,11 +22,11 @@ nav {
   align-items: center;
 }
 #brandName h2 {
-  color: #313131;
+  color: #1F1F1F;
   font-weight: 800;
 }
 #brandName i {
-  color: #313131;
+  color: #1F1F1F;
   font-size: 30px;
   font-weight: 800;
   rotate: 50deg;
@@ -45,12 +45,12 @@ nav {
   font-weight: 500;
   font-size: 18px;
   padding: 12px 40px;
-  border: 2px solid #313131;
+  border: 2px solid #1F1F1F;
   border-radius: 18px;
   background: transparent;
 }
 section {
-  padding: 25px 70px;
+  padding: 25px 120px;
 }
 #center {
   display: flex;
@@ -73,7 +73,7 @@ section {
 }
 #center1 button {
   margin-top: 35px;
-  background: #313131;
+  background: #1F1F1F;
   color: #fff;
   padding: 18px 22px;
   border: none;
@@ -96,4 +96,89 @@ section {
 #partnerBrandLogos img {
   width: 120px;
   filter: grayscale(1);
+}
+#servicesHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+}
+#servicesHeader h3 {
+  font-size: 30px;
+  background: #b9ff66;
+  padding: 5px 2px;
+}
+#servicesHeader p {
+  width: 55%;
+}
+#servicesCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  gap: 45px;
+  flex-wrap: wrap; /* Added property */
+}
+#servicesCards .card {
+  width: calc(50% - 25px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  border: 2px solid #1F1F1F;
+  border-bottom: 12px solid #1F1F1F;
+  border-radius: 40px;
+  height: 320px;
+  gap: 30px;
+}
+#servicesCards .card .cardLeftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  height: 100%;
+}
+#servicesCards .card .cardLeftPart .content-group h4 {
+  font-size: 25px;
+  background: #b9ff66;
+  padding: 5px;
+  border-radius: 8px;
+}
+#servicesCards .card .cardLeftPart .content-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+#servicesCards .card .cardLeftPart .content-footer i {
+  font-size: 30px;
+  background: #1F1F1F;
+  color: #b9ff66;
+  padding: 4px 5px;
+  border-radius: 50%;
+}
+#servicesCards .card .display-group img {
+  height: 240px;
+}
+/* dark */
+#servicesCards .card.dark {
+  background: #1F1F1F;
+}
+#servicesCards .card.dark .cardLeftPart .content-group h4 {
+  font-size: 25px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 8px;
+}
+#servicesCards .card.dark .cardLeftPart .content-footer i {
+  background: #fff;
+  color: #1F1F1F;
+}
+#servicesCards .card.dark .cardLeftPart .content-footer p {
+  color: #fff;
+}
+#servicesCards .card .display-group img {
+  height: 240px;
 }
