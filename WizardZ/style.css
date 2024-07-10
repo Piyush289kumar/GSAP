@@ -87,3 +87,13 @@ section {
 #center2 img {
   height: 100%;
 }
+#partnerBrandLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 85px 45px;
+}
+#partnerBrandLogos img {
+  width: 120px;
+  filter: grayscale(1);
+}
