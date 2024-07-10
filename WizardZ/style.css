@@ -54,10 +54,10 @@ section {
 }
 #center {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 80vh;
   width: 100%;
+  padding-top: 45px;
 }
 #center1 {
   height: 100%;
@@ -83,10 +83,7 @@ section {
 #center2 {
   height: 100%;
   width: 100%;
-  position: relative;
 }
 #center2 img {
-  height: 85%;
-  position: absolute;
-  right: 0;
+  height: 100%;
 }
