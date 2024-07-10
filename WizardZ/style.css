@@ -6,8 +6,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
   font-family: china;
+}
+body {
+  padding-bottom: 80px;
+}
+#cursorPointer {
+  width: 20px;
+  height: 20px;
+  background: #b9ff66;
+  opacity: 0;
+  border-radius: 50%;
 }
 nav {
   display: flex;
@@ -182,7 +191,6 @@ section {
 #servicesCards .card .display-group img {
   height: 240px;
 }
-
 /* Proposal */
 #proposal #servicesCards {
   margin-top: 55px;
@@ -235,4 +243,56 @@ section {
   height: 310px;
   margin-top: 35px;
   margin-right: 45px;
+}
+/* Case Study */
+#caseStudy {
+  margin-top: 55px;
+}
+#caseStudy #servicesCards {
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 55px;
+  flex-wrap: nowrap;
+  padding: 15px 45px 45px 45px;
+  border-radius: 40px;
+}
+#caseStudy #servicesCards .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #1f1f1f;
+  border-bottom: 12px solid #1f1f1f;
+  border-radius: 40px;
+  height: 220px;
+  gap: 30px;
+}
+#caseStudy #servicesCards .card .cardLeftPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  height: 100%;
+}
+#caseStudy #servicesCards .card .cardLeftPart .content-group p {
+  color: #fff;
+}
+#caseStudy #servicesCards .card .cardLeftPart .content-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+#caseStudy #servicesCards .card .cardLeftPart .content-footer i {
+  color: #b9ff66;
+}
+#caseStudy #servicesCards .card .cardLeftPart .content-footer p {
+  color: #b9ff66;
+}
+#caseStudy #servicesCards .line {
+  background: #fff;
+  width: 2px;
+  height: 180px;
 }
